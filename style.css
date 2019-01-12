@@ -1,0 +1,48 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+h2{ 
+    color: rgb(12, 173, 167);
+    text-align: center;
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+    color: rgb(12, 173, 167);
+    font-weight: bold;
+}
+header{
+    font-weight: bold;
+    text-align: justify;
+    font-size: 40px;
+    color: rgb(12, 173, 167);
+}
+.dropdown-menu{
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+}
+@media (max-width: 480px) {
+    .navbar-header{
+        background-color: rgb(12, 173, 167);
+    }
+}
+  
+  p{
+      text-align: justify;
+      position: relative;
+  } 
+.logo {
+    font-weight: bold;
+    font-size: 40px;
+
+}
