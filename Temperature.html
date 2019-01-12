@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Web Visualization Analysis</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="Aygul Matyakubova">
+  <body>
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-1"></div>
+                        <a class="navbar-brand logo" href="index.html" style="color:white;background-color:rgb(12, 173, 167);"> 
+                        <span class="nav-color">Latitude</span></a>
+                    </div>
+        
+                    <div class="nav navbar-nav navbar-right">
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Temperature.html">Max Temperature</a></li>
+                                <li><a href="Humidity.html">Humidity</a></li>
+                                <li><a href="Cloudiness.html">Cloudiness</a></li>
+                                <li><a href="WindSpeed.html">Wind Speed</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Comparison.html"> Comparison</a></li>
+                        <li><a href="Data.html"> Data</a></li>                                           
+                    </div>
+                </div>      
+            </nav>
+            <div class=container-fluid>
+                    <div class="row">
+                    <div class="col-md-7">
+                            <div class="col-md-1"></div>
+                            <div class="panel panel-default">
+                            <div class="panel-body">
+                      <h2>Max Temperature</h2>
+                      <hr>
+                      <p>Click any plot to get in-depth analysis</p>
+                      <img src="./assets/LatvsTemp.png" width=55% class="responsive pull-left">
+                      <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). 
+                        More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. 
+                        This may be due to the tilt of the earth.
+                    </p>
+                    </div>
+                    </div>
+                      </div>
+
+                      <div class="col-5 col-md-5">
+                            <div class="col-md-1"></div>
+                            <div class="panel panel-default">
+                            <div class="panel-body">
+                        <h2> Visualizations </h2>
+                        <hr>
+                        <a href="Temperature.html"><img src="./assets/LatvsTemp.png" width=45% class="responsive gap-right gap-below"></a>
+                        <a href="Humidity.html"><img src="./assets/LatvsHumidity.png" width=45% class="responsive gap-below"></a>
+                        <a href="Cloudiness.html"><img src="./assets/LatvsCloudiness.png" width=45% class="responsive gap-right"></a>
+                        <a href="WindSpeed.html"><img src="./assets/LatvsWindSpeed.png" width=45% class="responsive"></a>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+     <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" integrity="sha384-vhJnz1OVIdLktyixHY4Uk3OHEwdQqPppqYR8+5mjsauETgLOcEynD9oPHhhz18Nw" crossorigin="anonymous"></script>
+    </body>
+    </html>
